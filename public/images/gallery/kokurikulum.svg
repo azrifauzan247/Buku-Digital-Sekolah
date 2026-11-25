@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CFE3D2"/><stop offset="1" stop-color="#F2F6EC"/></linearGradient>
+    <radialGradient id="sun" cx=".75" cy=".2" r=".6"><stop offset="0" stop-color="#FFF3CF" stop-opacity=".9"/><stop offset="1" stop-color="#FFF3CF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5DE9C"/><stop offset="1" stop-color="#B08933"/></linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/><rect width="400" height="300" fill="url(#sun)"/>
+  
+  <path d="M0 220 C100 200 300 200 400 220 V300 H0Z" fill="#7DB37A"/>
+  <path d="M60 220 L120 120 L180 220Z" fill="#E2C27A" stroke="#9C7A36" stroke-width="3"/><path d="M120 120 L120 220" stroke="#9C7A36" stroke-width="2"/>
+  <path d="M260 216 L300 130 L340 216Z" fill="#3B6FB6" opacity=".85"/>
+  <g transform="translate(150 276) scale(1.4)"><path d="M-16 0 C-16 -22 -10 -32 0 -32 C10 -32 16 -22 16 0Z" fill="#7A6A3A"/><circle cx="0" cy="-41" r="8" fill="#D4A27A"/><path d="M-8 -43 C-7 -51 7 -51 8 -43 C4 -47 -4 -47 -8 -43Z" fill="#231812"/></g><g transform="translate(186 276) scale(1.4)"><path d="M-16 0 C-16 -22 -10 -32 0 -32 C10 -32 16 -22 16 0Z" fill="#7A6A3A"/><path d="M-11 -40 C-11 -54 11 -54 11 -40 C11 -32 6 -28 0 -27 C-6 -28 -11 -32 -11 -40Z" fill="#fff"/><ellipse cx="0" cy="-41" rx="6.5" ry="7.5" fill="#E1B48C"/><path d="M-11 -40 C-13 -34 -16 -30 -14 -26 H14 C16 -30 13 -34 11 -40 C9 -35 5 -31 0 -31 C-5 -31 -9 -35 -11 -40Z" fill="#fff"/></g><g transform="translate(222 276) scale(1.4)"><path d="M-16 0 C-16 -22 -10 -32 0 -32 C10 -32 16 -22 16 0Z" fill="#7A6A3A"/><circle cx="0" cy="-41" r="8" fill="#D4A27A"/><path d="M-8 -43 C-7 -51 7 -51 8 -43 C4 -47 -4 -47 -8 -43Z" fill="#231812"/></g><g transform="translate(258 276) scale(1.4)"><path d="M-16 0 C-16 -22 -10 -32 0 -32 C10 -32 16 -22 16 0Z" fill="#7A6A3A"/><path d="M-11 -40 C-11 -54 11 -54 11 -40 C11 -32 6 -28 0 -27 C-6 -28 -11 -32 -11 -40Z" fill="#fff"/><ellipse cx="0" cy="-41" rx="6.5" ry="7.5" fill="#E1B48C"/><path d="M-11 -40 C-13 -34 -16 -30 -14 -26 H14 C16 -30 13 -34 11 -40 C9 -35 5 -31 0 -31 C-5 -31 -9 -35 -11 -40Z" fill="#fff"/></g><g transform="translate(294 276) scale(1.4)"><path d="M-16 0 C-16 -22 -10 -32 0 -32 C10 -32 16 -22 16 0Z" fill="#7A6A3A"/><circle cx="0" cy="-41" r="8" fill="#D4A27A"/><path d="M-8 -43 C-7 -51 7 -51 8 -43 C4 -47 -4 -47 -8 -43Z" fill="#231812"/></g>
+  <circle cx="330" cy="80" r="22" fill="url(#gold)" opacity=".85"/>
+</svg>
